@@ -30,7 +30,7 @@ class BaseFile:
         self.lL = None
 
     def fillLoginPage(self):
-        self.driver.maximize_window()
+#         self.driver.maximize_window()
         self.driver.get(self.baseURL)
         self.lp = LoginPage(self.driver)
         self.lp.setUserName(self.username)
