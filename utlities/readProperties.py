@@ -1,7 +1,7 @@
 import configparser
 
 config = configparser.RawConfigParser()
-config.read("/home/gaurav/PycharmProjects/OrangeHRM-selenium-automation-testing-master/Configurations/config.ini")
+config.read(r"/home/gaurav/PycharmProjects/OrangeHRM-selenium-automation-testing-master/Configurations/config.ini")
 # config.read(r"C:\Users\DELL\selenium_work\OrangeHRM-selenium-automation-testing\Configurations\config.ini")
 
 
